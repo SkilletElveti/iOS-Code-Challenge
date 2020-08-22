@@ -184,9 +184,9 @@ class ViewController: UIViewController {
                 self.local = realm.objects(LocalDBDataModel.self)
                 
                 
-                DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 6, execute: {
                     
-                   self.dataTable.dataSource = self
+                    self.dataTable.dataSource = self
                     self.dataTable.delegate = self
                     self.dataTable.reloadData()
                     
