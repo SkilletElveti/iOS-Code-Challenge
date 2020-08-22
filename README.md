@@ -30,3 +30,4 @@ a new details screen is openned which displays ID, Date, Image and the Text mess
 Dummy cell animations are created using the skeleton pod. If the image fails to download then a placeholder image is loaded and on the details screen a error gif 
 is displayed using swiftyGIF pod. Likwise if any textual data is empty then a default string "Unavailable" is loaded. 
 
+This is an Universal App with deployment target of iOS Ver 12.4.
