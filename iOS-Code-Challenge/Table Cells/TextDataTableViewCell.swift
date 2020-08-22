@@ -25,16 +25,6 @@ class TextDataTableViewCell: UITableViewCell {
         self.selectionStyle = .none
     }
     
-    func showSkeletonTemp(){
-        self.dateLabel.isSkeletonable = true
-        self.dateLabel.showSkeleton()
-    }
-    
-    func removeSkeleton(){
-        self.dateLabel.hideSkeleton()
-        self.dateLabel.isSkeletonable = false
-        
-    }
     
       func configureView(){
         parentView = CardView()

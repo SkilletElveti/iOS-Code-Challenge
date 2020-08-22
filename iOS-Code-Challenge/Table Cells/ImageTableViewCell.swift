@@ -29,7 +29,7 @@ class ImageTableViewCell: UITableViewCell {
     }
     
     func configureView(){
-        
+        //CREATING A CARD VIEW
         parentView = CardView()
         
         self.contentView.addSubview(parentView)
@@ -52,6 +52,7 @@ class ImageTableViewCell: UITableViewCell {
     }
     
     func configureImage(){
+        //CREATING UIIMAGEVIEW TO DIPLAY IMAGES
         Img = UIImageView()
         
         self.parentView?.addSubview(Img)
@@ -74,7 +75,7 @@ class ImageTableViewCell: UITableViewCell {
    
     
     func configureStack(){
-        
+        //CREATING STACK VIEW AND ADDING UILABELS TO IT
         vSTack = UIStackView()
         self.parentView.addSubview(vSTack)
         dateLabel = UILabel()
