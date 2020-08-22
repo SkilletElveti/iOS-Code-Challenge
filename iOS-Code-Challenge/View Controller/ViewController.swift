@@ -75,7 +75,7 @@ class ViewController: UIViewController {
                     
                 }, onCancel: {})
             }else{
-                self.displayMessage(msg: "Please restart the app, when you have a stable internet connection.", isError: true)
+                self.displayMessage(msg: "Please restart the app, when you have a functioning internet connection.", isError: true)
             }
         }
         

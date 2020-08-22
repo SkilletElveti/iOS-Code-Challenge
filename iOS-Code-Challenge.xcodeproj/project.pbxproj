@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				5A2620FE24F1488E004E7B94 /* GIF */,
-				5A3270F424EF69D80072262A /* Protocals */,
+				5A3270F424EF69D80072262A /* Protocols */,
 				5A47D6F324EDA43800B710B5 /* Utils */,
 				5A47D6F024ED925F00B710B5 /* Data Model */,
 				5A47D6EB24ED88DD00B710B5 /* Table Cells */,
@@ -200,12 +200,12 @@
 			path = GIF;
 			sourceTree = "<group>";
 		};
-		5A3270F424EF69D80072262A /* Protocals */ = {
+		5A3270F424EF69D80072262A /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				5A3270F224EEDDA10072262A /* Protocal.swift */,
 			);
-			path = Protocals;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		5A47D6EB24ED88DD00B710B5 /* Table Cells */ = {

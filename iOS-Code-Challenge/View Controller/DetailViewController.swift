@@ -97,10 +97,10 @@ class DetailViewController: UIViewController {
             
             $0.left.equalTo(descriptionLabel.snp.left)
             $0.right.equalTo(descriptionLabel.snp.right)
-            $0.bottom.equalToSuperview().offset(10)
+            $0.bottom.equalToSuperview().offset(-10)
             
         }
-        
+        idLabel.numberOfLines = 0
         
         
         descriptionLabel.numberOfLines = 0
